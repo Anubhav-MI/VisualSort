@@ -123,7 +123,13 @@ function SortingChart() {
             disabled={sortingState.sorting}
             onChange={changeSortingSpeed}
             defaultValue="slow"
-            className="bg-gray-800 text-white px-3 py-2 rounded-md cursor-pointer outline-none focus:ring-2 focus:ring-blue-300 disabled:bg-gray-600 disabled:cursor-not-allowed transition-all"
+            className="bg-gray-800 text-white px-3 py-2 rounded-md cursor-pointer outline-none focus:ring-2 focus:ring-blue-300 disabled:bg-gray-600 disabled:cursor-not-allowed transition-all appearance-none"
+            style={{
+              backgroundImage: `url('data:image/svg+xml;charset=US-ASCII,%3Csvg xmlns="http://www.w3.org/2000/svg" width="4" height="5" viewBox="0 0 4 5"%3E%3Cpath fill="none" stroke="%23ffffff" stroke-width="1px" d="M0 0l2 2 2-2"%3E%3C/path%3E%3C/svg%3E')`,
+              backgroundRepeat: "no-repeat",
+              backgroundPosition: "right 0.75rem center",
+              backgroundSize: "0.65rem",
+            }}
           >
             <option value="slow">Slow</option>
             <option value="normal">Normal</option>
