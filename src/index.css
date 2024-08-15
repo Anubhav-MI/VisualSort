@@ -89,17 +89,16 @@ body {
 .bar-idle:after {
   background-color: rgba(0, 121, 191, 0.45); /* Slightly darker blue */
 }
-
 .bar-selected {
-  background-color: rgba(0, 102, 204, 0.35); /* Medium blue */
+  background-color: rgba(50, 205, 50, 0.6); /* Lime green */
 }
 
 .bar-selected:before {
-  background-color: rgba(0, 102, 204, 0.25); /* Slightly lighter medium blue */
+  background-color: rgba(50, 205, 50, 0.4); /* Slightly lighter lime green */
 }
 
 .bar-selected:after {
-  background-color: rgba(0, 102, 204, 0.45); /* Slightly darker medium blue */
+  background-color: rgba(50, 205, 50, 0.8); /* Slightly darker lime green */
 }
 
 @media screen and (max-width: 770px) {

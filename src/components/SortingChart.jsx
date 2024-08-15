@@ -25,7 +25,7 @@ function SortingChart() {
           onClick={() => changeAlgorithm("bubble_sort")}
           className={`bg-blue-600 text-white px-6 py-3 rounded-lg shadow-md ${
             sortingState.algorithm === "bubble_sort"
-              ? "bg-blue-800"
+              ? "bg-green-600"
               : "hover:bg-blue-500"
           } transition-transform transform hover:scale-105`}
         >
@@ -35,7 +35,7 @@ function SortingChart() {
           onClick={() => changeAlgorithm("insertion_sort")}
           className={`bg-blue-600 text-white px-6 py-3 rounded-lg shadow-md ${
             sortingState.algorithm === "insertion_sort"
-              ? "bg-blue-800"
+              ? "bg-green-600"
               : "hover:bg-blue-500"
           } transition-transform transform hover:scale-105`}
         >
@@ -45,7 +45,7 @@ function SortingChart() {
           onClick={() => changeAlgorithm("selection_sort")}
           className={`bg-blue-600 text-white px-6 py-3 rounded-lg shadow-md ${
             sortingState.algorithm === "selection_sort"
-              ? "bg-blue-800"
+              ? "bg-green-600"
               : "hover:bg-blue-500"
           } transition-transform transform hover:scale-105`}
         >
@@ -55,7 +55,7 @@ function SortingChart() {
           onClick={() => changeAlgorithm("merge_sort")}
           className={`bg-blue-600 text-white px-6 py-3 rounded-lg shadow-md ${
             sortingState.algorithm === "merge_sort"
-              ? "bg-blue-800"
+              ? "bg-green-600"
               : "hover:bg-blue-500"
           } transition-transform transform hover:scale-105`}
         >
@@ -65,7 +65,7 @@ function SortingChart() {
           onClick={() => changeAlgorithm("quick_sort")}
           className={`bg-blue-600 text-white px-6 py-3 rounded-lg shadow-md ${
             sortingState.algorithm === "quick_sort"
-              ? "bg-blue-800"
+              ? "bg-green-600"
               : "hover:bg-blue-500"
           } transition-transform transform hover:scale-105`}
         >
@@ -75,7 +75,7 @@ function SortingChart() {
           onClick={() => changeAlgorithm("radix_sort")}
           className={`bg-blue-600 text-white px-6 py-3 rounded-lg shadow-md ${
             sortingState.algorithm === "radix_sort"
-              ? "bg-blue-800"
+              ? "bg-green-600"
               : "hover:bg-blue-500"
           } transition-transform transform hover:scale-105`}
         >
@@ -131,9 +131,9 @@ function SortingChart() {
               backgroundSize: "0.65rem",
             }}
           >
-            <option value="slow">Slow</option>
-            <option value="normal">Normal</option>
             <option value="fast">Fast</option>
+            <option value="normal">Normal</option>
+            <option value="slow">Slow</option>
           </select>
         </div>
 
